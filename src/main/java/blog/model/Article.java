@@ -18,6 +18,7 @@ public class Article {
     private Date createTime;
     private Date updateTime;
 
+
     public void setId(int id){this.id = id;}
 
     public void setName(String name) {
@@ -59,6 +60,5 @@ public class Article {
     public String getContent() {
         return content;
     }
-
     public int getId(){ return id;}
 }
